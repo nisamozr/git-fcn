@@ -24,6 +24,10 @@ span{
     background: linear-gradient(to bottom, #000000 0%, #ffffff 100%);
     color: #ffffff;
 }
+.responsive {
+  width: 100%;
+  height: auto;
+}
 .main-text{
     margin-top: 170px;
     
