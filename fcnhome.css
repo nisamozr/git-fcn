@@ -1,0 +1,187 @@
+span{
+    color: rgb(248, 248, 0);
+    font-weight: bold;
+    
+}
+.navbar{
+    background-color: black;
+}
+.navbar-brand{
+    font-weight: bold;
+    margin-left: 50px;
+
+}
+.main-con{
+    width: 100%;
+    min-height: 40rem;
+    margin: 0;
+    background-color: black;
+    padding: 100px;
+    text-align: center;
+
+}
+#welcom{
+    background: linear-gradient(to bottom, #000000 0%, #ffffff 100%);
+    color: #ffffff;
+}
+.main-text{
+    margin-top: 170px;
+    
+    font-size: 50px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+
+}
+.main-para{
+    font-size: 50px;
+    color: white;
+}
+.log{
+    margin-top: 70px;
+    height: 25rem;
+   
+    
+
+}
+@media  (max-width:420px){
+    .main-con{
+    padding: 40px;
+    
+}
+.log{
+    margin-top: 20px;
+}
+.main-text{
+    margin-top: 50px;
+}
+}
+/*section 2*/
+.into-head{
+    margin-top: 70px;
+    font-size: 50px;
+
+}
+.into-para{
+    margin-bottom: 50px;
+    font-size:22px;
+    font-weight: lighter;
+}
+.map-container-6{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+    }
+    .map-container-6 iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+    }
+
+
+
+
+/*album*/
+#album{
+    padding: 10px;
+    background-color:snow;
+    font-family: "Asap", sans-serif;
+    color:#989898;
+    margin:0;
+    margin-top: 30px;
+    font-size:16px;
+  }
+  
+  #demo {
+    height:100%;
+    position:relative;
+    overflow:hidden;
+  }
+  
+  
+  .green{
+    background-color:#6fb936;
+  }
+          .thumb{
+              margin-bottom: 30px;
+          }
+          
+          .page-top{
+              margin-top:85px;
+          }
+  
+     
+  img.zoom {
+      width: 100%;
+      height: 200px;
+      border-radius:8px;
+      object-fit:cover;
+      -webkit-transition: all .3s ease-in-out;
+      -moz-transition: all .3s ease-in-out;
+      -o-transition: all .3s ease-in-out;
+      -ms-transition: all .3s ease-in-out;
+  }
+          
+   
+  .transition {
+      -webkit-transform: scale(1.2); 
+      -moz-transform: scale(1.2);
+      -o-transform: scale(1.2);
+      transform: scale(1.2);
+  }
+      .modal-header {
+     
+       border-bottom: none;
+  }
+      .modal-title {
+          color:#000;
+      }
+      .modal-footer{
+        display:none;  
+      }
+
+      
+.zoom:hover{
+
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    
+    
+}
+  
+
+
+.photo{
+    color:black ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+  /* setion 2 end*/
+  /*footer started*/
+  footer{
+      text-align: center;
+      color: white;
+      padding: 15px;
+      font-size: 10px;
+  }
+  .company{
+      color: rgb(60, 211, 216);
+      font-weight: bold;
+  }
+  .fbi{
+      font-size: 30px;
+      
+  }
+  .fb{
+      color:  #3b5998;
+
+  }
+  .inta{
+    color: rgb(182, 52, 52);
+      
+  }
